@@ -1,20 +1,21 @@
-export default function ProductCard({ image, name, price }) {
-  const handleAddToCart = () => {
-    console.log(`Added ${name} to cart`);
-    alert(`Added ${name} to cart`);
-  };
-
+export default function ProductCard({ name, price, image }) {
   return (
-    <div className="border rounded-lg p-4 shadow hover:shadow-lg transition bg-white dark:bg-gray-800">
-      <img src={image} alt={name} className="rounded-md mb-3 w-full h-40 object-cover" />
-      <h2 className="text-lg font-semibold text-gray-800 dark:text-gray-100">{name}</h2>
-      <p className="text-gray-600 dark:text-gray-300 mb-2">${price}</p>
-      <button
-        onClick={handleAddToCart}
-        className="bg-blue-600 hover:bg-blue-700 text-white px-3 py-1 rounded-md"
-      >
-        Add to Cart
-      </button>
+    <div className="group bg-white dark:bg-gray-900 rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300">
+      <div className="overflow-hidden">
+        <img
+          src={image}
+          alt={name}
+          className="w-full h-72 object-cover group-hover:scale-110 transition-transform duration-500"
+        />
+      </div>
+
+      <div className="p-5 flex flex-col items-center text-center">
+        <h2 className="text-lg font-semibold text-gray-800 dark:text-gray-100">{name}</h2>
+        <p className="text-blue-600 dark:text-blue-400 font-bold mt-2">${price}</p>
+        <button className="mt-4 px-5 py-2 bg-blue-600 text-white font-medium rounded-full hover:bg-blue-700 transition-all">
+          Add to Cart
+        </button>
+      </div>
     </div>
   );
 }

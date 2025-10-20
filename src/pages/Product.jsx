@@ -13,13 +13,41 @@ const products = [
 
 export default function Products() {
   return (
-    <div className="p-10">
-      <h1 className="text-3xl font-bold mb-4 text-gray-800 dark:text-gray-100">Our Products</h1>
-      <div className="grid gap-7 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-        {products.map((p) => (
-          <ProductCard key={p.id} {...p} />
-        ))}
+    <section className="min-h-screen bg-gradient-to-br from-gray-100 via-white to-gray-200 dark:from-gray-950 dark:via-gray-900 dark:to-gray-950 py-20 px-6 sm:px-10">
+      <div className="max-w-7xl mx-auto text-center">
+        {/* Title */}
+        <h1 className="text-5xl font-extrabold text-gray-800 dark:text-white mb-6">
+          Our <span className="text-blue-600 dark:text-blue-400">Products</span>
+        </h1>
+        <p className="text-gray-600 dark:text-gray-300 mb-14 max-w-2xl mx-auto">
+          Explore our collection of high-quality and stylish products, crafted to make your life easier and better.
+        </p>
+
+        {/* Grid */}
+        <div className="grid gap-10 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+          {products.map((p) => (
+            <div
+              key={p.id}
+              className="group bg-white dark:bg-gray-900 rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300"
+            >
+              <img
+                src={p.image}
+                alt={p.name}
+                className="w-full h-72 object-cover transform group-hover:scale-110 transition-transform duration-500"
+              />
+              <div className="p-5 text-left">
+                <h3 className="text-lg font-semibold text-gray-800 dark:text-white group-hover:text-blue-600">
+                  {p.name}
+                </h3>
+                <p className="text-gray-600 dark:text-gray-300 mt-1 mb-3">${p.price}</p>
+                <button className="w-full py-2 mt-2 rounded-lg bg-blue-600 text-white hover:bg-blue-700 transition-all">
+                  Add to Cart
+                </button>
+              </div>
+            </div>
+          ))}
+        </div>
       </div>
-    </div>
+    </section>
   );
 }
