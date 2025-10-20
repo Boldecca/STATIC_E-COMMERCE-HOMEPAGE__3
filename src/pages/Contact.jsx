@@ -1,4 +1,4 @@
-import { Mail, Phone, MapPin } from "lucide-react";
+import { Mail, Phone, MapPin, Twitter, Facebook, Instagram, Linkedin } from "lucide-react";
 
 export default function Contact() {
   const handleSubmit = (e) => {
@@ -36,9 +36,23 @@ export default function Contact() {
             </div>
           </div>
 
-          {/* Optional Map Placeholder */}
-          <div className="mt-6 w-full h-48 bg-blue-400 rounded-lg flex items-center justify-center text-blue-100 dark:text-gray-300 font-medium">
-            Map Placeholder
+          {/* Follow Us Section */}
+          <div className="mt-6">
+            <h3 className="text-lg font-semibold mb-2">Follow Us</h3>
+            <div className="flex space-x-4">
+              <a href="#" className="hover:text-blue-200 transition">
+                <Twitter className="w-6 h-6" />
+              </a>
+              <a href="#" className="hover:text-blue-200 transition">
+                <Facebook className="w-6 h-6" />
+              </a>
+              <a href="#" className="hover:text-blue-200 transition">
+                <Instagram className="w-6 h-6" />
+              </a>
+              <a href="#" className="hover:text-blue-200 transition">
+                <Linkedin className="w-6 h-6" />
+              </a>
+            </div>
           </div>
         </div>
 
