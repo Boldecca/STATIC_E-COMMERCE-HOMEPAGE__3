@@ -2,7 +2,7 @@
   "name": "static-e-commerce-homepage1",
   "version": "1.0.0",
   "private": true,
-  "description": "A static e-commerce homepage built with HTML, CSS, and JavaScript using Vite for local development.",
+  "description": "A static e-commerce homepage built with React, Tailwind CSS, and Vite for fast local development.",
   "homepage": "https://Boldecca.github.io/STATIC_E-COMMERCE-HOMEPAGE__3",
   "scripts": {
     "dev": "vite",
@@ -13,16 +13,23 @@
   },
   "keywords": [
     "ecommerce",
-    "static-site",
+    "react",
     "vite",
+    "tailwind",
     "homepage"
   ],
   "author": "",
   "license": "MIT",
-  "devDependencies": {
-    "vite": "^5.4.0"
-  },
   "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "gh-pages": "^5.0.0"
+  },
+  "devDependencies": {
+    "vite": "^5.4.0",
+    "@vitejs/plugin-react": "^4.2.0",
+    "tailwindcss": "^3.4.0",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.31"
   }
 }
