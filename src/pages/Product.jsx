@@ -40,7 +40,9 @@ export default function Products() {
                   {p.name}
                 </h3>
                 <p className="text-gray-600 dark:text-gray-300 mt-1 mb-3">${p.price}</p>
-                <button className="w-full py-2 mt-2 rounded-lg bg-blue-600 text-white hover:bg-blue-700 transition-all">
+                <button className="w-full py-2 mt-2 rounded-lg bg-blue-600 text-white hover:bg-blue-700 transition-all" onClick={() =>
+                  alert(`Added ${p.name} to our cart!`)
+                }>
                   Add to Cart
                 </button>
               </div>
