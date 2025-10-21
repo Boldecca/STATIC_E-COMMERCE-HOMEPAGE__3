@@ -36,22 +36,22 @@ STATIC_E-COMMERCE-HOMEPAGE1/
 
 **Homepage**
 
-![Homepage](public/screenshots/homepage.png)
+![Homepage](![alt text](image.png))
 
 **Products Page**
 
-![Products](public/screenshots/products-1.png)
-![Products](public/screenshots/products-2.png)
+![Products](![alt text](image-1.png))
+![alt text](image-2.png)
 
-**About Page**
+**About page**
 
-![About](public/screenshots/about-1.png)
-![About](public/screenshots/about-2.png)
+![About page](![alt text](image-3.png))
+![alt text](image-4.png)
 
-**Contact Page**
+**Contact page**
 
-![Contact](public/screenshots/contact-1.png)
-![Contact](public/screenshots/contact-2.png)
+![Contact]![alt text](image-5.png)
+![alt text](image-6.png)
 
 
 ## ⚙️ Setup & Installation
