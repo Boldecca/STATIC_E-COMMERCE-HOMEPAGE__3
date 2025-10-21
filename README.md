@@ -1,17 +1,79 @@
-# React + Vite
+# STATIC_E-COMMERCE-HOMEPAGE1
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Static E-commerce Homepage built using **React** and **Tailwind CSS** — includes **Home**, **Products**, **About**, and **Contact** pages with **props**, **event handling**, and **dark mode**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛍️ Features
 
-## React Compiler
+- 🖥️ Built with **React** and **Vite** for fast development and performance
+- 🎨 Styled using **Tailwind CSS** for a responsive and customizable design
+- 🛒 Includes pages: **Home**, **Products**, **About**, and **Contact**
+- 🌙 Dark mode toggle for enhanced user experience
+- 🔄 Event handling and component props for dynamic content rendering
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🗂️ Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# STATIC_E-COMMERCE-HOMEPAGE__3
+STATIC_E-COMMERCE-HOMEPAGE1/
+├── public/
+│ └── index.html
+├── src/
+│ ├── assets/ # Images and icons
+│ ├── components/ # Reusable UI components
+│ ├── pages/ # Page components (Home, Products, About, Contact)
+│ └── App.jsx # Main application component
+├── .gitignore
+├── package.json
+├── package-lock.json
+├── vite.config.js
+└── README.md
+
+---
+
+## 🖼️ Screenshots
+
+**Homepage**
+
+![Homepage](![alt text](image.png))
+
+**Products Page**
+
+![Products](![alt text](image-1.png))
+![alt text](image-2.png)
+
+**About page**
+
+![About page](![alt text](image-3.png))
+![alt text](image-4.png)
+
+**Contact page**
+
+![Contact]![alt text](image-5.png)
+![alt text](image-6.png)
+
+
+## ⚙️ Setup & Installation
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/Boldecca/STATIC_E-COMMERCE-HOMEPAGE__3.git
+
+--- 
+
+👩‍💻 Author
+
+Muteteri Rebecca
+📧 muteterirebecca60@gmail.com
+
+💼 Frontend Developer & Designer
+
+
+## 🚀 Live Demo
+
+Check out the live version of this project:  
+[Static E-Commerce Homepage Live](https://boldecca.github.io/STATIC_E-COMMERCE-HOMEPAGE__3/)
+
+
