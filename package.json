@@ -18,7 +18,7 @@
     "tailwind",
     "homepage"
   ],
-  "author": "",
+  "author": "Muteteri Rebecca",
   "license": "MIT",
   "dependencies": {
     "react": "^18.3.1",
